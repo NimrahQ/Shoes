@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    min-height: 150vh;
+}
+.text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+    top: 25%;
+}
+.text-img{
+    width: 2.5vw;
+    height: 3vh;
+   background-size: cover;
+   background-position: center;
+    background: url("./img/icons8-loading-sign-30.png");
+}
+.text h1{
+    font-size: 3vw;
+    color: #fff;
+    text-align: center;
+}
+.text p{
+    font-size: 1wv;
+    color: rgb(133, 127, 127);
+    text-align: center;
+}
+.cards{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 80%;
+    height: 80vh;
+}
+#card-one{
+    top: 130%;
+    background: url("./img/3215732e63f06bc868977cfc80c17b27.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#card-two{
+    top: 230%;
+    background: url("./img/8cd73a7e5a92279a199957304e81f036.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#card-three{
+    top: 250%;
+    background: url("./img/e2358cf6d8c01951274d50e01567c1cb.jpg");
+    background-position: center;
+    background-size: cover;
+}
